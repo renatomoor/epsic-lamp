@@ -16,7 +16,7 @@
 3. Collez le fichier [docker-compose.yml](https://drive.google.com/file/d/1CuoKkH_11AZVbie_Vum10V4K4Ug67Hqe/view?usp=sharing) sur votre projet
 
 4. Ouvrez votre projet avec pycharm et éditez le fichier docker-compose.yml
-   - remplacer les valeurs de MYSQL_DATABASE, MYSQL_ROOT_PASSWORD, BACKUP_TIME.
+   - Remplacer les valeurs de MYSQL_DATABASE, MYSQL_ROOT_PASSWORD, BACKUP_TIME.
    
 5. Dans le terminal pycharm de votre projet, exécutez la commande `docker-compose up -d`
 Vous devriez voir cette réponse:
