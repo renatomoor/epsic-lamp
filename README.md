@@ -24,7 +24,7 @@ Vous devriez voir cette réponse:
 
    - Si vous souhaitez exécuter avec logs, exécutez `docker-compose up` (optionnelle)
 
-6. Vous pouvez maintenant aller sur phpmyadmin: http://localhost:5000/
+6. Vous pouvez maintenant aller sur phpmyadmin: http://localhost:5000/ ou http://0.0.0.0:5000/ ou http://127.0.0.1:5000/
    - Vous pouvez vous connecter en utilisant l'utilisateur `root` et en utilisant le mot de passe que vous avez ajouté dans le docker-compose.yml
 
 8. Si vous rencontrez des problèmes de connexion à la base de données ou à phpmyadmin:
