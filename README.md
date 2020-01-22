@@ -25,3 +25,6 @@
      - `localhost` (Recomended)
      - `0.0.0.0`
      - `127.0.0.1`
+
+## Attention
+ - Assurez-vous d'avoir désactivé toutes les applications las WAMP ou UWAMP
