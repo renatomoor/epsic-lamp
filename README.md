@@ -44,3 +44,6 @@ docker-compose down
 docker-compose up -d
 ```
 
+## Backups automatiques
+Toutes les 15 minutes, une sauvegarde est effectuée dans le dossier `/backups`  
+Vous pouvez changer la durée dans le fichier docker-compose.yml
