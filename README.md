@@ -17,7 +17,7 @@
 5. In your project's pycharm terminal run the command `docker-compose up`
    - If you want to run in background (without logs) run `docker-compose up -d` (optional)
 
-6. You can go now to phpmyadmin: http://localhost:8000/
+6. You can go now to phpmyadmin: http://localhost:5000/
    - You can login using using the user `root` and using the password you add in the docker-compose.yml
 
 8. If you have problems connecting to the database or phpmyadmin:
