@@ -1,5 +1,9 @@
 # EPSIC-LAMP
 
+
+## Attention
+ - Assurez-vous d'avoir désactivé toutes les applications comme WAMP, MAMP, UWAMP...
+
 # Installation
 1. Téléchargez et installez docker
    - Téléchargez le programme d'installation de docker et suivez les instructions
@@ -39,7 +43,4 @@ Pour redémarrer epsic-lapm, accédez à votre console de projet et exécutez ce
 docker-compose down
 docker-compose up -d
 ```
-
-## Attention
- - Assurez-vous d'avoir désactivé toutes les applications comme WAMP, MAMP, UWAMP...
 
