@@ -41,5 +41,5 @@ docker-compose up -d
 ```
 
 ## Attention
- - Assurez-vous d'avoir désactivé toutes les applications las WAMP ou UWAMP
+ - Assurez-vous d'avoir désactivé toutes les applications comme WAMP, MAMP, UWAMP...
 
