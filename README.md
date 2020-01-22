@@ -33,5 +33,13 @@ Vous devriez voir cette réponse:
      - `0.0.0.0`
      - `127.0.0.1`
 
+### Redémarrer
+Pour redémarrer epsic-lapm, accédez à votre console de projet et exécutez ces commandes une par une:
+```
+docker-compose down
+docker-compose up -d
+```
+
 ## Attention
  - Assurez-vous d'avoir désactivé toutes les applications las WAMP ou UWAMP
+
