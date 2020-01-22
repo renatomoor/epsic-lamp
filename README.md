@@ -7,9 +7,9 @@
      - [Download docker for windows](https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe)  
      - [Download docker for mac](https://download.docker.com/mac/stable/Docker.dmg)  
 
-2. Download this file [docker-compose](docker-compose.yml)
+2. Download this file [docker-compose.yml](https://drive.google.com/file/d/1CuoKkH_11AZVbie_Vum10V4K4Ug67Hqe/view?usp=sharing)
 
-3. Paste the [docker-compose](docker-compose.yml) on your project
+3. Paste the [docker-compose.yml](https://drive.google.com/file/d/1CuoKkH_11AZVbie_Vum10V4K4Ug67Hqe/view?usp=sharing) on your project
 
 4. Open your project with pycharm and edit the file docker-compose.yml
    - replace the values of MYSQL_DATABASE, MYSQL_ROOT_PASSWORD, BACKUP_TIME.
