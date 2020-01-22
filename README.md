@@ -15,15 +15,14 @@
    - remplacer les valeurs de MYSQL_DATABASE, MYSQL_ROOT_PASSWORD, BACKUP_TIME.
    
 5. Dans le terminal pycharm de votre projet, exécutez la commande `docker-compose up -d`
-
-Vous devriez voir cette réponse
+Vous devriez voir cette réponse:
 ```
    Starting xxxxx_db_1         ... done
    Starting xxxxx_phpmyadmin_1 ... done
    Starting xxxxx_backups_1    ... done
 ```
 
-   - Si vous souhaitez exécuter avec logs), exécutez `docker-compose up` (optionnelle)
+   - Si vous souhaitez exécuter avec logs, exécutez `docker-compose up` (optionnelle)
 
 6. Vous pouvez maintenant aller sur phpmyadmin: http://localhost:5000/
    - Vous pouvez vous connecter en utilisant l'utilisateur `root` et en utilisant le mot de passe que vous avez ajouté dans le docker-compose.yml
