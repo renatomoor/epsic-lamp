@@ -4,7 +4,7 @@ x-env:
   &x-env
   environment:
       MYSQL_DATABASE: my_database_name      # Name of your database
-      MYSQL_ROOT_PASSWORD: root             # Password for database root
+      MYSQL_ROOT_PASSWORD: root             # Password for user root
       BACKUP_TIME: 900                      # Time in seconds between every backup database backup; 900 = 15 minutes
 
 
