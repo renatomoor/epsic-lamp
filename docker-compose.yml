@@ -1,0 +1,34 @@
+version: "3.7"
+
+x-env:
+  &x-env
+  environment:
+      MYSQL_DATABASE: my_database_name      # Name of your database
+      MYSQL_ROOT_PASSWORD: root   # Password for database root
+      BACKUP_TIME: 900              # Time in seconds between every backup database backup; 900 = 15 minutes
+
+
+#### DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING ####
+services:
+    db:
+        image: mariadb
+        ports:
+            - "3306:3306"
+        command: --default-authentication-plugin=mysql_native_password
+        <<: *x-env
+        volumes:
+            - permanent-data:/var/lib/mysql
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        ports:
+            - "8000:80"
+        <<: *x-env
+    backups:
+        image: webmoor/database-backup
+        <<: *x-env
+        volumes:
+            - ./backups:/backups
+        depends_on:
+          - db
+volumes:
+    permanent-data:
