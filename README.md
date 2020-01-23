@@ -11,7 +11,7 @@
      - [Télécharger Docker pour Windows](https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe)  
      - [Télécharger Docker pour Mac](https://download.docker.com/mac/stable/Docker.dmg)
    
-   - Partager le disque ou vous avez votre project:
+   - Partager le disque ou vous avez votre project (Windows seulement):
      - ![](https://user-images.githubusercontent.com/2235110/62162200-58de7000-b2dd-11e9-8365-2a78ade9be1e.png)
      - ![](https://user-images.githubusercontent.com/2235110/62162233-672c8c00-b2dd-11e9-9636-730f97020774.png)
 2. Téléchargez ce fichier [docker-compose.yml](https://drive.google.com/file/d/1CuoKkH_11AZVbie_Vum10V4K4Ug67Hqe/view?usp=sharing)
