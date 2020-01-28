@@ -47,6 +47,12 @@ docker-compose down
 docker-compose up -d
 ```
 
+### Étendre
+Pour étandre epsic-lapm, accédez à votre console de projet et exécutez la commande:
+```
+docker-compose down
+```
+
 ## Backups automatiques
 Toutes les 15 minutes, une sauvegarde est effectuée dans le dossier `/backups`  
 Vous pouvez changer la durée dans le fichier docker-compose.yml
