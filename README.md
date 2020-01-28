@@ -41,10 +41,9 @@ Vous devriez voir cette réponse:
      - `127.0.0.1`
 
 ### Redémarrer
-Pour redémarrer epsic-lapm, accédez à votre console de projet et exécutez ces commandes une par une:
+Pour redémarrer epsic-lapm, accédez à votre console de projet et exécutez la commande:
 ```
-docker-compose down
-docker-compose up -d
+docker-compose restart
 ```
 
 ### Étendre
